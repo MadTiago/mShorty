@@ -1,4 +1,4 @@
-# mShorty - Url shortner
+# mShorty - Url shortener
 
 #
 ### Configuration
