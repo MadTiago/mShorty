@@ -20,7 +20,7 @@ Create a .env file with the following configurations:
 The **content-type** accepted is **application/json** for all endpoints.
 
 * /:id\
-:id = alias for the short url\
+:id = alias for the short url
 <br/>
 
 * /url\
