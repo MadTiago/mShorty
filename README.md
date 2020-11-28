@@ -12,10 +12,10 @@ Create a .env file with the following configurations:
 #
 ### Endpoints
 
-| Endpoint 	| Method 	| Description                      	|
-|----------	|--------	|----------------------------------	|
-| /:id     	| GET    	| Get short url by id and redirect 	|
-| /url     	| POST   	| Create short url                 	|
+| Endpoint 	| Method 	| Description                      	    |
+|----------	|--------	|----------------------------------	    |
+| /:alias   | GET    	| Get short url by alias and redirect 	|
+| /url     	| POST   	| Create short url                 	    |
 
 The **content-type** accepted is **application/json** for all endpoints.
 
@@ -32,4 +32,4 @@ Request body
 }
 ```
 url is **required**\
-alias is *optional*
+alias is *optional* (In case this field is empty, a random alias will be generated for the url)
