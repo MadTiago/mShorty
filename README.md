@@ -24,11 +24,11 @@ The **content-type** accepted is **application/json** for all endpoints.
 <br/>
 
 * /url\
-Request body
+Request JSON body
 ```
 {
-  url: http://google.com
-  alias: google
+  "url": "http://google.com"
+  "alias": "google"
 }
 ```
 url is **required**\
